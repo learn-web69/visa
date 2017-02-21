@@ -536,3 +536,256 @@ form .submit {background-color:#b10101; width:100%; border:0; border-radius:15px
 	.pref-title {font-size:27px; line-height:33px; color:#0041da; display:block; margin:0 0 10px 0;}
 	.lands-item {width:50%; height:auto; float:left; padding-bottom:20px;}
 } 
+
+
+
+/*new styles*/
+
+.lands-item2, .lands-item {
+	width: 16.666%;
+}
+.home-canada {background: #7286c3 url("images/canada-bg.jpg") center bottom no-repeat;}
+.home-main {background: #3066ae url("images/home-bg.jpg") center bottom no-repeat;}
+.footer-item2-ins {width: 100%;}
+.slogan-descr {display: none;}
+.under-form-title3 {text-align: right;}
+.issuance-of-documents {max-width: 1024px; margin: 0 auto;}
+.steps {overflow: hidden;}
+.form-documents {width:512px; height:auto; float:right;}
+.form-descr {display:block; margin:0 auto; height:auto; color:#282e3c; text-align:center; font-size:53px; padding-top:3px;}
+.slogans {margin: 0 -288px;}
+.wrap-middle {overflow: hidden;}
+form .textarea {resize: none;}
+.wrapper {min-width: initial; overflow-x: hidden;}
+.footer-item2 span {overflow: hidden; padding-left: 0;}
+.footer-ins i {
+	float: left;
+	margin-right: 8px;
+}
+
+@media (max-width : 1024px) {
+	.slogans {margin: 0;}
+	.issuance-of-documents {display: table; width: 100%;}
+	.form-documents {width:100%; height:auto; float:none; clear:both;}
+	.form-descr {width:100%; display:block; margin:0 auto; height:auto; text-align:center; font-size:25px; clear:both; padding-top:3px;}
+	.top-contacts {background: none; margin-bottom: 0;}
+	.top-contacts-ins > * {
+		background-color: #282e3c;
+		padding: 5px 10px;
+		text-align: center;
+		margin-bottom: 8px;
+		padding-top: none;
+		overflow: hidden;
+	}
+	.slogan-descr {
+		display: block;
+		color: #98b0cf;
+		font-size: 28px;
+		padding: 30px 0;
+		margin-left: 35px;
+		text-align: center;
+	}
+
+	.form-left span.can-title, .form-left span.china-title, .form-left span.shen-title, 
+	.form-left span.usa-title, .form-left span.uk-title {
+		font-size: 63px;
+		line-height: 62px;
+		color: #282e3c;
+
+	}
+	.form-left span.can-subtitle, .form-left span.china-subtitle, 
+	.form-left span.shen-subtitle, .form-left span.usa-subtitle, .form-left span.uk-subtitle{
+		padding-top: 0;
+		margin-top: 10px;
+		font-size: 27px;
+		line-height: 32px;
+		padding-left: 10%;
+		text-align: left;
+	}
+	.form-left span.india-subtitle {
+		font-size: 31px;
+		line-height: 38px;
+	}
+	.form-left span.shen-subtitle, .form-left span.usa-subtitle, .form-left span.uk-subtitle {font-size: 25px;}
+	.form-left span.usa-subtitle, .form-left span.uk-subtitle {
+		line-height: 30px;
+		color: #fcbe16;
+	}
+
+	.form-left span.china-subtitle, .form-left span.china-subtitle-small {color: #606060;}
+	.form-left span.can-subtitle-small, .form-left span.china-subtitle-small, 
+	.form-left span.shen-subtitle-small, .form-left span.uk-subtitle-small {
+		font-size: 22px;
+		text-align: left;
+		padding-left: 10%;
+		line-height: 27px;
+	}
+	.form-left span.shen-subtitle-small,
+	.form-left span.usa-subtitle-small, .form-left span.uk-subtitle-small {font-size: 20px;}
+	.form-left span.usa-subtitle-small {
+		color: #fcbe16;
+		text-align: left;
+		padding-left: 10%;
+		line-height: 24px;
+	}
+	.under-form-title2, .under-form-title-china, .under-form-title-shen, .form-left span.usa-messag {
+		text-align: right;
+		font-size: 19px;
+		line-height: 24px;
+		color: #fde1e6;
+		padding: 0;
+		padding: 0 10% 0 20px;
+		margin: 23px 0;
+	}
+	.under-form-title-india {
+		font-size: 28px;
+		line-height: 34px;
+		padding: 45px;
+	}
+	.under-form-title-shen {color: #fff;}
+	.under-form-title-china {
+		font-size: 18px;
+		color: #7a7a7b;
+	}
+	.under-form-title3 {color: #fde1e6; margin-bottom: 20px;}
+	.wrap-bottom {display: table; width: 100%;}
+	.home-middle {
+		display: table-footer-group;
+		background: url("images/icon-bg.png") center top repeat-y;
+		padding-top: 20px;
+		height: auto;
+	}
+	.home-china {background: #ced3d7 url("images/china-bg-m.jpg") center bottom no-repeat;background-size: cover;}
+	.home-india {background: #0195FF url("images/india-bg1.jpg") center bottom no-repeat;}
+	.home-usa {background: #b66a7f url("images/usa-bg1.jpg") center bottom no-repeat;}
+	.home-uk {background: #a97156 url("images/london-bg1.jpg") center bottom no-repeat;background-size: cover;}
+
+	.home-shengen {background-size: cover;}
+	.home-india, .home-usa, .home-uk {padding: 0;}
+	.footer {display: table-header-group;}
+	.pref-blocks {
+		display: none;
+	}
+	.lands-items {padding-top: 20px;}
+	.lands-item a {
+		font-size: 25px;
+		color: #282e3c;
+	}
+	.lands-bg2 {min-width: 320px;}
+	.lands-bg-ins2 {padding-top: 20px;}
+	.can-title-right, .china-title-right2 {margin-left: -164px;}
+	.home-main, .home-china, .shengen-home {padding: 0;}
+	.home-canada {padding: 0;background: #7286c3 url("images/canada-bg.jpg") center bottom no-repeat;}
+	.top-slogan {width: 100%;}
+	.form-descr {display: table-header-group;}
+	.steps-left {margin-top: 10px;}
+	.footer-ins {padding: 15px 0 0;}
+	.footer-item1 {font-size: 26px;}
+	.form-mess2, .can2-title2, .can2-tworev, .form-mess, .lands-title, .footer-item3, 
+	.china2-title2, .china2-subtitle2, .shen2-title2, .shen2-subtitle2, .shen2-tworev,
+	.india2-title2, .india2-subtitle2, .usa2-title2, .usa2-subtitle2, .usa2-tworev, 
+	.usa2-tworev2, .under-form-title, .uk2-subtitle2, .uk2-tworev {display: none;}
+	.form-left {
+		font-size: 51px;
+		line-height: 60px;
+		color: #fff;
+		padding: 0 20px;
+	}
+	.after-block:after {
+		content: '';
+		padding-bottom: 40%;
+		display: block;
+		height: 0;
+		width: 100%;
+	}
+	.can2-numbers, .home-uk2 .after-block:after, 
+	.home-india .after-block:after, .home-india2 .after-block:after, 
+	.home-china2 .after-block:after {padding-bottom: 58%;}
+	.home-china .after-block:after {padding-bottom: 90%;}
+	.home-shengen .after-block:after {padding-bottom: 140%;}
+	.home-india2 {min-height: 100%;}
+	.under-form-title3 {padding-right: 10%;}
+	.footer-item2 {text-align: left;}
+	.footer-item2-ins {
+	    width: 340px;
+	}
+
+}
+@media (max-width : 840px) {
+	.lands-item2, .lands-item {width: 33.333%;}
+	.home-after:after {
+		content: '';
+		display: block;
+		height: 0;
+		width: 100%;
+		padding-bottom: 90%;
+	}
+	
+}
+@media (max-width : 640px) {
+	.top-contacts-ins i {
+		float: left;
+		margin-right: 10px;
+	}
+	.top-contacts-ins > * {
+		text-align: left; 
+		font-size: 16px;
+	}
+	.form-left {
+		padding: 0;
+		text-align: left;
+	}
+	.form-item {font-size: 32px;}
+	.slogan-descr {text-align: left;}
+	.can2-title {font-size: 25px;}
+	.form-item2 {font-size: 32px;}
+	.form-item-ins {padding: 20px 30px;}
+	.home-main {background: #24579a url("images/home-bg-m.jpg") center bottom no-repeat;background-size: cover;}
+	.home-canada {background:#8091c9 url("images/canada-bg-m.jpg") center bottom no-repeat; background-size: cover; padding: 0;}
+	.home-canada2 {background: #1e1e1e url("images/canada-bg-2.jpg") center bottom no-repeat;background-size: cover;}
+	.home-shengen2 {background: #288df4 url("images/shengen-bg-2.jpg") center bottom no-repeat;background-size: cover;}
+	.home-usa2 {background: #03a5ec url("images/usa-bg-2.jpg") center bottom no-repeat;background-size: cover;}
+	.home-uk2 {background: #288df4 url("images/uk-bg-2.jpg") center bottom no-repeat;background-size: cover;}
+	.home-india {background: #3d89ff url("images/india-bg-m.jpg") center bottom no-repeat;background-size: cover;}
+	.home-india2 {background: #cc7ab2 url("images/india-bg-2.jpg") center bottom no-repeat;background-size: cover;}
+	.home-china2 {background: #1d2167 url("images/china-bg-2.jpg") center bottom no-repeat;background-size: cover;}
+	.home-shengen {background: #b59e97 url("images/shengen-bg-m.jpg") center bottom no-repeat;background-size: cover;}
+	.home-usa {background: #b66a7f url("images/usa-bg-m.jpg") center bottom no-repeat;background-size: cover;}
+	.home-uk {background: #dc9f74 url("images/london-bg-m.jpg") center bottom no-repeat;background-size: cover;}
+
+	.home-usa .after-block:after, .home-usa2 .after-block:after {padding-bottom: 132%;}
+	.after-block:after {
+		padding-bottom: 100%;
+	}
+	.home-india2
+	.home-uk .after-block:after, .can2-numbers {padding-bottom: 154%;}
+	.home-uk2 .after-block:after {padding-bottom: 118%;}
+	.home-china2 .after-block:after {padding-bottom: 147%;}
+	.home-india .after-block:after, .home-china .after-block:after {padding-bottom: 109%;}
+	.home-india2 .after-block:after {padding-bottom: 217%;}
+	.home-shengen2 .after-block:after {padding-bottom: 109%;}
+	.form-left span.shen-subtitle,	.form-left span.shen-subtitle-small {padding-left: 7%;}
+}
+
+@media (max-width : 480px) {
+	.form-left span.shen-title {font-size: 55px;}
+	.lands-item2, .lands-item {width: 50%;}
+	.lands-item2 span, .lands-item span {font-size: 25px;}
+	.form-left span.can-subtitle {padding-left: 15px;}
+	.form-left span.can-subtitle-small {padding-left: 15px;}
+	.under-form-title2 {padding-right: 15px;}
+	.home-india2 {background: #cc7ab2 url("images/india-bg-2.jpg") center bottom no-repeat;background-size: cover;}
+	.under-form-title-india {text-align: left;padding-left: 20px;}
+	
+	.footer-item1 {
+	    padding: 0 15px;
+	    text-align: left;
+	}
+	.footer-item2-ins {
+	    width: 100%;
+	}
+	.footer-item2 {
+		padding: 30px 10px;
+		text-align: left;
+	}
+}
